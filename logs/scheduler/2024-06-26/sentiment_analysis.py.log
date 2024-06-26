@@ -1,0 +1,155 @@
+[2024-06-26T17:16:09.129+0000] {processor.py:161} INFO - Started process (PID=218) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:09.130+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:16:09.131+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:16:09.130+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:09.140+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:16:09.140+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 25
+    schedule_interval=schedule_interval) 
+                                         ^
+SyntaxError: expected ':'
+[2024-06-26T17:16:09.141+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:09.159+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.032 seconds
+[2024-06-26T17:16:24.223+0000] {processor.py:161} INFO - Started process (PID=223) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:24.223+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:16:24.224+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:16:24.224+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:24.234+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:16:24.233+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 25
+    schedule_interval=schedule_interval) 
+                                         ^
+SyntaxError: expected ':'
+[2024-06-26T17:16:24.234+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:24.252+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.033 seconds
+[2024-06-26T17:16:54.395+0000] {processor.py:161} INFO - Started process (PID=228) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:54.396+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:16:54.397+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:16:54.396+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:54.405+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:16:54.404+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 25
+    schedule_interval=schedule_interval) 
+                                         ^
+SyntaxError: expected ':'
+[2024-06-26T17:16:54.405+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:16:54.427+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.034 seconds
+[2024-06-26T17:17:24.568+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:24.569+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:17:24.570+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:17:24.569+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:24.578+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:17:24.577+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 25
+    schedule_interval=schedule_interval) 
+                                         ^
+SyntaxError: expected ':'
+[2024-06-26T17:17:24.578+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:24.599+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.033 seconds
+[2024-06-26T17:17:54.730+0000] {processor.py:161} INFO - Started process (PID=238) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:54.731+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:17:54.732+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:17:54.732+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:54.742+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:17:54.741+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1017, in get_code
+  File "<frozen importlib._bootstrap_external>", line 947, in source_to_code
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 25
+    schedule_interval=schedule_interval) 
+                                         ^
+SyntaxError: expected ':'
+[2024-06-26T17:17:54.743+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:54.759+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.032 seconds
+[2024-06-26T17:17:57.779+0000] {processor.py:161} INFO - Started process (PID=243) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:57.780+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:17:57.780+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:17:57.780+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:57.805+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:17:57.802+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: module 'sentiment_analysis_loader' has no attribute 'run'
+[2024-06-26T17:17:57.806+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:17:57.824+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.048 seconds
+[2024-06-26T17:18:27.955+0000] {processor.py:161} INFO - Started process (PID=248) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:18:27.956+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:18:27.957+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:18:27.957+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:18:27.973+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:18:27.970+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: module 'sentiment_analysis_loader' has no attribute 'run'
+[2024-06-26T17:18:27.974+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:18:27.992+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.039 seconds
+[2024-06-26T17:18:58.118+0000] {processor.py:161} INFO - Started process (PID=253) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:18:58.119+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:18:58.120+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:18:58.120+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:18:58.138+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:18:58.135+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: module 'sentiment_analysis_loader' has no attribute 'run'
+[2024-06-26T17:18:58.139+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:18:58.158+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.043 seconds
+[2024-06-26T17:19:28.289+0000] {processor.py:161} INFO - Started process (PID=258) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:19:28.290+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:19:28.291+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:19:28.291+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:19:28.308+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:19:28.305+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: module 'sentiment_analysis_loader' has no attribute 'run'
+[2024-06-26T17:19:28.309+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:19:28.325+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.039 seconds
+[2024-06-26T17:19:58.438+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:19:58.439+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-26T17:19:58.440+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:19:58.440+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:19:58.453+0000] {logging_mixin.py:188} INFO - [2024-06-26T17:19:58.451+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: module 'sentiment_analysis_loader' has no attribute 'run'
+[2024-06-26T17:19:58.453+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-26T17:19:58.468+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.032 seconds
