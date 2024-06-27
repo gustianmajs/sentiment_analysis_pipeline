@@ -19,7 +19,7 @@ def get_mongo_client(mongo_uri):
 
 
 def get(database, collection):
-    mongo_uri = "mongodb+srv://temp_user:GTVRwigblsyGp76y@learn-mongodb.uy8vx0p.mongodb.net/?retryWrites=true&w=majority&appName=learn-mongodb"
+    mongo_uri = "<connection>"
     mongo_client = get_mongo_client(mongo_uri)
     if not mongo_client:
         print("Failed to create MongoDB client")
