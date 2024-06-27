@@ -1,11 +1,12 @@
-# sentiment_analysis_pipeline
+# SIB6_Final Project
+sentiment_analysis_pipeline
 
-## SIB6_Final Project
+## Steps 1:
 1.  Login to Finnhub
 2.  Login to MongoDB Atlas
 3.  Docker Compose Airflow
 
-## Steps :
+## Steps 2:
 1.  Jalankan Airflow menggunakan docker-compose up
 2.  Buat Plugins:
 a.  Finnhub loader
